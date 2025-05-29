@@ -1,4 +1,4 @@
-# fashion_retrieval
+# Clothing Retrieval
 
 ## Idea
 The goal of this project is to build a WebApp for multimodal clothing retrieval that makes online fashion search more intuitive and personalized.
