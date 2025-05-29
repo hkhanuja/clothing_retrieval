@@ -137,7 +137,7 @@ async def request_item(request: Request, item_id: str, gender: str, ref_text: st
                 )
             ]
         ),
-        limit=5, # Number of results to return
+        limit=20, # Number of results to return
         with_payload=True # Include payload in results so you can see the gender
     )
 
