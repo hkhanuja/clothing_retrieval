@@ -13,8 +13,8 @@ from lavis.models import load_model_and_preprocess
 from qdrant_client import QdrantClient, models
 
 qdrant_client = QdrantClient(
-    url="https://f1b3703b-9c3e-47a4-97ea-ab612bee7106.us-east4-0.gcp.cloud.qdrant.io:6333", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.GuUKx_7JRai4ui6KGQPK8w_Vp-OL1uPR0OKXjB0pTM8",
+    url="", 
+    api_key="",
 )
 try:
     qdrant_client.delete_collection("ajio_products")
